@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38171B8B1A39D9AC00FDD42A /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38171B8A1A39D9AC00FDD42A /* NavigationViewController.swift */; };
 		38B0C5D61A38E3D300D579AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B0C5D51A38E3D300D579AF /* AppDelegate.swift */; };
 		38B0C5D81A38E3D300D579AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B0C5D71A38E3D300D579AF /* ViewController.swift */; };
 		38B0C5DB1A38E3D300D579AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B0C5D91A38E3D300D579AF /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38171B8A1A39D9AC00FDD42A /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		38B0C5D01A38E3D300D579AF /* SearchList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B0C5D41A38E3D300D579AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38B0C5D51A38E3D300D579AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				38B0C5D71A38E3D300D579AF /* ViewController.swift */,
 				38B0C5F51A38FA8A00D579AF /* AlbumObject.swift */,
 				38B0C5D91A38E3D300D579AF /* Main.storyboard */,
+				38171B8A1A39D9AC00FDD42A /* NavigationViewController.swift */,
 				38B0C5F71A39012600D579AF /* ArtViewController.swift */,
 				38B0C5DC1A38E3D300D579AF /* Images.xcassets */,
 				38B0C5DE1A38E3D300D579AF /* LaunchScreen.xib */,
@@ -221,6 +224,7 @@
 				38B0C5F81A39012600D579AF /* ArtViewController.swift in Sources */,
 				38B0C5D81A38E3D300D579AF /* ViewController.swift in Sources */,
 				38B0C5F61A38FA8A00D579AF /* AlbumObject.swift in Sources */,
+				38171B8B1A39D9AC00FDD42A /* NavigationViewController.swift in Sources */,
 				38B0C5D61A38E3D300D579AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +417,7 @@
 				38B0C5F11A38E3D300D579AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38B0C5F21A38E3D300D579AF /* Build configuration list for PBXNativeTarget "SearchListTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				38B0C5F41A38E3D300D579AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

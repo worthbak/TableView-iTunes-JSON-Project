@@ -31,6 +31,10 @@ class ViewController: UIViewController, UISearchBarDelegate {
     // Dispose of any resources that can be recreated.
   }
   
+  override func preferredStatusBarStyle() -> UIStatusBarStyle {
+    return .LightContent
+  }
+  
   // MARK: - URL/JSON Methods
   
   func urlWithSearchText(searchText: String) -> NSURL {
