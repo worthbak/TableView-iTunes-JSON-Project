@@ -13,6 +13,8 @@
 		38B0C5DD1A38E3D300D579AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B0C5DC1A38E3D300D579AF /* Images.xcassets */; };
 		38B0C5E01A38E3D300D579AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38B0C5DE1A38E3D300D579AF /* LaunchScreen.xib */; };
 		38B0C5EC1A38E3D300D579AF /* SearchListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B0C5EB1A38E3D300D579AF /* SearchListTests.swift */; };
+		38B0C5F61A38FA8A00D579AF /* AlbumObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B0C5F51A38FA8A00D579AF /* AlbumObject.swift */; };
+		38B0C5F81A39012600D579AF /* ArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B0C5F71A39012600D579AF /* ArtViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		38B0C5E51A38E3D300D579AF /* SearchListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B0C5EA1A38E3D300D579AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38B0C5EB1A38E3D300D579AF /* SearchListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListTests.swift; sourceTree = "<group>"; };
+		38B0C5F51A38FA8A00D579AF /* AlbumObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumObject.swift; sourceTree = "<group>"; };
+		38B0C5F71A39012600D579AF /* ArtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,9 @@
 			children = (
 				38B0C5D51A38E3D300D579AF /* AppDelegate.swift */,
 				38B0C5D71A38E3D300D579AF /* ViewController.swift */,
+				38B0C5F51A38FA8A00D579AF /* AlbumObject.swift */,
 				38B0C5D91A38E3D300D579AF /* Main.storyboard */,
+				38B0C5F71A39012600D579AF /* ArtViewController.swift */,
 				38B0C5DC1A38E3D300D579AF /* Images.xcassets */,
 				38B0C5DE1A38E3D300D579AF /* LaunchScreen.xib */,
 				38B0C5D31A38E3D300D579AF /* Supporting Files */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38B0C5F81A39012600D579AF /* ArtViewController.swift in Sources */,
 				38B0C5D81A38E3D300D579AF /* ViewController.swift in Sources */,
+				38B0C5F61A38FA8A00D579AF /* AlbumObject.swift in Sources */,
 				38B0C5D61A38E3D300D579AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
