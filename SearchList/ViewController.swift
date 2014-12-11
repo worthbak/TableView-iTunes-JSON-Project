@@ -17,7 +17,6 @@ class ViewController: UIViewController, UISearchBarDelegate {
   
   var wordList = [String]()
   var albumList = [AlbumObject]()
-  var placeholderAlbum: AlbumObject?
   
   // MARK: - Methods
 
@@ -133,19 +132,15 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     tableView.deselectRowAtIndexPath(indexPath, animated: false)
   }
   
-  func tableView(tableView: UITableView, willSelectRowAtIndexPath indexPath: NSIndexPath) -> NSIndexPath? {
-    placeholderAlbum = albumList[indexPath.row]
-    println("row: \(indexPath.row) album:\(placeholderAlbum?.albumName)")
-    return indexPath
-  }
-  
   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
     if segue.identifier == "ShowArt" {
+      let indexPath = self.tableView.indexPathForSelectedRow()
+      
       let navigationController = segue.destinationViewController as UINavigationController
       
       let controller = navigationController.topViewController as ArtViewController
       
-      controller.artURL = placeholderAlbum?.albumArtURL
+      controller.artURL = albumList[indexPath!.row].albumArtURL
     }
   }
   
